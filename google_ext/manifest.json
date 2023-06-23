@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Injectorjs",
+    "description": "Javascript code injector",
+    "version": "1.0",
+    "content_scripts": [
+      {
+        "js": [
+          "scripts/content.js"
+        ],
+        "matches": [
+          "<all_urls>"
+        ]
+      }
+    ]
+}
